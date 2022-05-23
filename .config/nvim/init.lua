@@ -1,0 +1,5 @@
+require("packerInit")
+require("autocommands")
+require("settings")
+require("keymaps")
+require("colors")
