@@ -1,12 +1,14 @@
-<h1 align=center><a href="https://github.com/emuel-vassallo" />Emuel</a> 's dotfiles</h1>
+<div align=center>
+  <h1><a href="https://github.com/emuel-vassallo" />Emuel</a> 's dotfiles</h1>
 
-<p>
-  <a href="https://github.com/emuel-vassallo/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/emuel-vassallo/dotfiles?colorA=151515&colorB=8C977D&style=for-the-badge"></a>
-  <a href="https://github.com/emuel-vassallo/dotfiles/issues"><img src="https://img.shields.io/github/issues/emuel-vassallo/dotfiles?colorA=151515&colorB=B66467&style=for-the-badge"></a>
-  <a href="https://github.com/emuel-vassallo/dotfiles/network/members"><img src="https://img.shields.io/github/forks/emuel-vassallo/dotfiles?colorA=151515&colorB=8DA3B9&style=for-the-badge"></a>
-</p>
+  <p>
+    <a href="https://github.com/emuel-vassallo/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/emuel-vassallo/dotfiles?colorA=151515&colorB=8C977D&style=for-the-badge"></a>
+    <a href="https://github.com/emuel-vassallo/dotfiles/issues"><img src="https://img.shields.io/github/issues/emuel-vassallo/dotfiles?colorA=151515&colorB=B66467&style=for-the-badge"></a>
+    <a href="https://github.com/emuel-vassallo/dotfiles/network/members"><img src="https://img.shields.io/github/forks/emuel-vassallo/dotfiles?colorA=151515&colorB=8DA3B9&style=for-the-badge"></a>
+  </p>
+</div>
 
-## ⭐ Showcase
+## 🔲 Showcase
 
 ![Setup showcase](https://raw.githubusercontent.com/emuel-vassallo/dotfiles/main/images/screenshots/neofetch-nvim-dashboard.png)
 
@@ -27,7 +29,7 @@
 | Text Editor | [Neovim](https://neovim.io/)                                                                                                                                                                         |
 | WM          | [BSPWM](https://github.com/baskerville/bspwm)                                                                                                                                                        |
 
-## ✨ Inspiration from...
+## 🤎 Huge thanks to...
 
 - [@datsfilipe](https://github.com/datsfilipe/dots)
 - [@Manas140](https://github.com/Manas140/dotfiles)
