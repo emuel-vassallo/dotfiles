@@ -19,7 +19,6 @@ local theme = {
 		c = { fg = colors.white, bg = colors.bg },
 
 		x = { fg = colors.dark_grey, bg = colors.bg },
-		y = { fg = colors.dark_grey, bg = colors.darker_grey },
 		z = { fg = colors.bg, bg = colors.green },
 	},
 	insert = { a = { fg = colors.bg, bg = colors.magenta }, b = { fg = colors.magenta, bg = colors.bg } },
@@ -109,6 +108,7 @@ local branch = {
 	icons_enabled = true,
 	icon = "",
 	padding = { left = 2, right = 2 },
+	color = { fg = colors.dark_grey, bg = colors.darker_grey },
 }
 
 local progress = function()
