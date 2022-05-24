@@ -1,5 +1,6 @@
 <div align=center>
   <h1><a href="https://github.com/emuel-vassallo" />Emuel</a> 's dotfiles</h1>
+  <p>⚙️ My personal dotfiles for BSPWM, Neovim, Kitty, zsh, etc.</p>
 
   <p>
     <a href="https://github.com/emuel-vassallo/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/emuel-vassallo/dotfiles?colorA=151515&colorB=8C977D&style=for-the-badge"></a>
@@ -8,15 +9,15 @@
   </p>
 </div>
 
-## 🔲 Showcase
+# Showcase
 
 ![Setup showcase](https://raw.githubusercontent.com/emuel-vassallo/dotfiles/main/images/screenshots/neofetch-nvim-dashboard.png)
 
-### Neovim
+## Neovim
 
 ![Neovim setup](https://raw.githubusercontent.com/emuel-vassallo/dotfiles/main/.config/nvim/screenshots/overall-preview.png)
 
-## 🗒️ Information
+# Information
 
 | Type        | Using                                                                                                                                                                                                |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,7 +30,7 @@
 | Text Editor | [Neovim](https://neovim.io/)                                                                                                                                                                         |
 | WM          | [BSPWM](https://github.com/baskerville/bspwm)                                                                                                                                                        |
 
-## 🤎 Huge thanks to...
+# 🤎 Inspiration from...
 
 - [@datsfilipe](https://github.com/datsfilipe/dots)
 - [@Manas140](https://github.com/Manas140/dotfiles)
