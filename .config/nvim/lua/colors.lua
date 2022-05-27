@@ -50,7 +50,6 @@ vim.api.nvim_command([[
 
   exe "hi FocusedSymbol guifg=".g:terminal_color_4
   exe "hi NeoTreeModified guifg=".g:terminal_color_9
-  exe "hi NeoTreeIndentMarker guifg=".g:terminal_color_8
   exe "hi NeoTreeGitAdded guifg=".g:terminal_color_2
   exe "hi NeoTreeGitDeleted guifg=".g:terminal_color_9
   exe "hi NeoTreeGitRenamed guifg=".g:terminal_color_13
@@ -81,7 +80,7 @@ vim.api.nvim_command([[
   exe "hi DiagnosticError guifg=".g:terminal_color_9
   exe "hi DiagnosticWarn guifg=".g:terminal_color_3
   exe "hi DiagnosticInfo guifg=".g:terminal_color_14
-  exe "hi DiagnosticHint guifg=".g:terminal_color_12
+  hi DiagnosticHint guifg=#151515
 
   exe "hi Hlargs guifg=".g:terminal_color_1
 
@@ -94,7 +93,7 @@ vim.api.nvim_command([[
   hi! link TabLineSel StatusInsert
   hi TabLine guibg=#1f1f1f
   hi TabLine guifg=#525252
-  hi TabLineFill guibg=background
+  hi TabLineFill guibg=#151515
 
   hi FoldColumn guibg=background
   hi DiffAdd guibg=background
@@ -102,8 +101,8 @@ vim.api.nvim_command([[
   hi DiffDelete guibg=background
   hi DiffText guibg=background
 
-  hi Pmenu guibg=background guifg=#424242
-  hi PmenuSbar guibg=background guifg=#151515
+  hi Pmenu guibg=#151515 guifg=#424242
+  hi PmenuSbar guibg=#151515 guifg=#151515
   hi PmenuThumb guibg=#424242 guifg=#242424
   hi PmenuSel guibg=#242424 guifg=#BBB6B6
 

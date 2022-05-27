@@ -39,7 +39,7 @@ return packer.startup(function(use)
 		end,
 	})
 
-	use({ "wbthomason/packer.nvim", enent = "VimEnter" })
+	use({ "wbthomason/packer.nvim" })
 
 	use({ "norcalli/nvim-base16.lua" })
 
@@ -74,7 +74,6 @@ return packer.startup(function(use)
 
 	use({
 		"norcalli/nvim-colorizer.lua",
-		ft = { "css", "javascript" },
 		config = function()
 			require("plugins.configs.colorizer")
 		end,
@@ -148,7 +147,7 @@ return packer.startup(function(use)
 
 	use({
 		"max397574/better-escape.nvim",
-		keys = { "jk", "JK", "j", "k", "J", "K" },
+		event = "BufRead",
 		config = function()
 			require("plugins.configs.better-escape")
 		end,
@@ -185,7 +184,7 @@ return packer.startup(function(use)
 		end,
 	})
 
-	use({ "xiyaowong/nvim-cursorword", event = "BufRead" })
+	use({ "xiyaowong/nvim-cursorword", keys = { "h", "j", "k", "l" } })
 
 	use({
 		"simrat39/symbols-outline.nvim",
@@ -237,7 +236,7 @@ return packer.startup(function(use)
 
 	use({
 		"ggandor/leap.nvim",
-		keys = { "s", "s" },
+		keys = { "s", "S" },
 		config = function()
 			require("leap").set_default_keymaps()
 		end,
@@ -265,9 +264,15 @@ return packer.startup(function(use)
 
 	use({
 		"beauwilliams/focus.nvim",
-		event = "BufRead",
 		config = function()
-			require("focus").setup()
+			require("focus").setup({
+				excluded_filetypes = {
+					"toggleterm",
+					"Trouble",
+					"neo-tree",
+					"Outline",
+				},
+			})
 		end,
 	})
 
@@ -303,7 +308,6 @@ return packer.startup(function(use)
 		end,
 	})
 
-	-- LSP
 	use({
 		"williamboman/nvim-lsp-installer",
 		config = function()
@@ -318,10 +322,6 @@ return packer.startup(function(use)
 
 	use({
 		"rafamadriz/friendly-snippets",
-	})
-
-	use({
-		"hrsh7th/cmp-nvim-lsp",
 	})
 
 	use({
@@ -357,6 +357,10 @@ return packer.startup(function(use)
 
 	use({
 		"hrsh7th/cmp-cmdline",
+	})
+
+	use({
+		"hrsh7th/cmp-nvim-lsp",
 	})
 
 	use({
@@ -408,7 +412,6 @@ return packer.startup(function(use)
 
 	use({
 		"nvim-telescope/telescope.nvim",
-		after = "neo-tree.nvim",
 		config = function()
 			require("plugins.configs.telescope")
 		end,
@@ -463,6 +466,13 @@ return packer.startup(function(use)
 	-- 		})
 	-- 	end,
 	-- })
+
+	use({
+		"kosayoda/nvim-lightbulb",
+		config = function()
+			require("nvim-lightbulb").setup({ autocmd = { enabled = true } })
+		end,
+	})
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
