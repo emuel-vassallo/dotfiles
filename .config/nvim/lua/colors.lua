@@ -80,7 +80,6 @@ vim.api.nvim_command([[
   exe "hi DiagnosticError guifg=".g:terminal_color_9
   exe "hi DiagnosticWarn guifg=".g:terminal_color_3
   exe "hi DiagnosticInfo guifg=".g:terminal_color_14
-  hi DiagnosticHint guifg=#151515
 
   exe "hi Hlargs guifg=".g:terminal_color_1
 

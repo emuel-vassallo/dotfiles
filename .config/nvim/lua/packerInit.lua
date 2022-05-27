@@ -309,18 +309,6 @@ return packer.startup(function(use)
 	})
 
 	use({
-		"williamboman/nvim-lsp-installer",
-		config = function()
-			require("plugins.lsp")
-		end,
-	})
-
-	use({ "neovim/nvim-lspconfig" })
-	use({ "tamago324/nlsp-settings.nvim" })
-	use({ "jose-elias-alvarez/null-ls.nvim" })
-	use({ "onsails/lspkind.nvim" })
-
-	use({
 		"rafamadriz/friendly-snippets",
 	})
 
@@ -376,6 +364,18 @@ return packer.startup(function(use)
 	})
 
 	use({
+		"williamboman/nvim-lsp-installer",
+		config = function()
+			require("plugins.lsp")
+		end,
+	})
+
+	use({ "neovim/nvim-lspconfig" })
+	use({ "tamago324/nlsp-settings.nvim" })
+	use({ "jose-elias-alvarez/null-ls.nvim" })
+	use({ "onsails/lspkind.nvim" })
+
+	use({
 		"windwp/nvim-autopairs",
 		config = function()
 			require("plugins.configs.autopairs")
@@ -392,7 +392,7 @@ return packer.startup(function(use)
 	use({
 		"numToStr/Comment.nvim",
 		module = "Comment",
-		keys = { "gcc", "gbc", "gc", "gb" },
+		event = "BufEnter",
 		config = function()
 			require("plugins.configs.comment")
 		end,
@@ -466,13 +466,6 @@ return packer.startup(function(use)
 	-- 		})
 	-- 	end,
 	-- })
-
-	use({
-		"kosayoda/nvim-lightbulb",
-		config = function()
-			require("nvim-lightbulb").setup({ autocmd = { enabled = true } })
-		end,
-	})
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
