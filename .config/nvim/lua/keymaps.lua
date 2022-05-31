@@ -205,3 +205,8 @@ keymap("n", "<leader>sw", ":ISwapWith<CR>", opts)
 keymap("i", "<F2>", '<cmd>lua require("renamer").rename()<cr>', opts)
 keymap("n", "<F2>", '<cmd>lua require("renamer").rename()<cr>', opts)
 keymap("v", "<F2>", '<cmd>lua require("renamer").rename()<cr>', opts)
+
+-- keymap("v", "<C-S-c>", '"+y', opts)
+keymap("v", "<leader>c", '"+y', opts)
+
+keymap("o", "jk", "<esc>", opts)
