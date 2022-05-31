@@ -115,4 +115,9 @@ vim.api.nvim_command([[
   hi NormalFloat guibg=none
 
   hi WinSeparator guifg=#1f1f1f
+  
+  hi GitSignsAdd guifg=#8c977d guibg=#151515
+  hi GitSignsChange guifg=#8da3bd guibg=#151515
+  hi GitSignsDelete guifg=#b66467 guibg=#151515
+
 ]])

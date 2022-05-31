@@ -3,10 +3,6 @@ if not status_ok then
 	return
 end
 
-vim.cmd([[:hi GitSignsAdd guifg=#8c977d guibg=#151515]])
-vim.cmd([[:hi GitSignsChange guifg=#8da3bd guibg=#151515]])
-vim.cmd([[:hi GitSignsDelete guifg=#b66467 guibg=#151515]])
-
 gitsigns.setup({
 	signs = {
 		add = { hl = "GitSignsAdd", text = "▎", numhl = "GitSignsAddNr", linehl = "GitSignsAddLn" },
@@ -74,7 +70,6 @@ gitsigns.setup({
 		map("n", "<leader>hD", '<cmd>lua require"gitsigns".diffthis("~")<CR>')
 		map("n", "<leader>td", "<cmd>Gitsigns toggle_deleted<CR>")
 
-		-- Text object
 		map("o", "ih", ":<C-U>Gitsigns select_hunk<CR>")
 		map("x", "ih", ":<C-U>Gitsigns select_hunk<CR>")
 	end,
