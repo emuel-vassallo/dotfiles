@@ -73,7 +73,8 @@ return packer.startup(function(use)
 	})
 
 	use({
-		"norcalli/nvim-colorizer.lua",
+		"NvChad/nvim-colorizer.lua",
+		event = "BufRead",
 		config = function()
 			require("plugins.configs.colorizer")
 		end,
@@ -252,7 +253,6 @@ return packer.startup(function(use)
 
 	use({
 		"kevinhwang91/nvim-hlslens",
-		keys = { "/" },
 		config = function()
 			require("hlslens").setup({
 				calm_down = true,
@@ -466,6 +466,68 @@ return packer.startup(function(use)
 	-- 		})
 	-- 	end,
 	-- })
+
+	use({
+		"nvim-neorg/neorg",
+		config = function()
+			require("neorg").setup({
+				load = {
+					["core.defaults"] = {},
+					["core.norg.dirman"] = {
+						config = {
+							workspaces = {
+								work = "~/notes/work",
+								home = "~/notes/home",
+							},
+						},
+					},
+				},
+			})
+		end,
+		requires = "nvim-lua/plenary.nvim",
+	})
+
+	use({
+		"fgheng/winbar.nvim",
+		config = function()
+			require("winbar").setup({
+				enabled = true,
+
+				show_file_path = true,
+				show_symbols = true,
+
+				colors = {
+					path = "", -- You can customize colors like #c946fd
+					file_name = "",
+					symbols = "",
+				},
+
+				icons = {
+					file_icon_default = "",
+					seperator = ">",
+					editor_state = "●",
+					lock_icon = "",
+				},
+
+				exclude_filetype = {
+					"help",
+					"startify",
+					"dashboard",
+					"packer",
+					"neogitstatus",
+					"NvimTree",
+					"Trouble",
+					"alpha",
+					"lir",
+					"Outline",
+					"spectre_panel",
+					"toggleterm",
+					"qf",
+					"tutor",
+				},
+			})
+		end,
+	})
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()

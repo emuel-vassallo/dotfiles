@@ -88,47 +88,6 @@ cmd({ "VimEnter", "DirChanged" }, {
 	end,
 })
 
-local function has_value(tab, val)
-	for _, value in ipairs(tab) do
-		if value == val then
-			return true
-		end
-	end
-
-	return false
-end
-
-cmd({ "CursorMoved", "BufWinEnter", "BufFilePost" }, {
-	callback = function()
-		local winbar_filetype_exclude = {
-			"help",
-			"startify",
-			"packer",
-			"NeogitStatus",
-			"neo-tree",
-			"Trouble",
-			"alpha",
-			"lir",
-			"toggleterm",
-			"Outline",
-			"spectre_panel",
-		}
-
-		if has_value(winbar_filetype_exclude, vim.bo.filetype) then
-			vim.opt_local.winbar = nil
-			return
-		end
-
-		local value = require("plugins.configs.winbar").gps()
-
-		if value == nil then
-			value = require("plugins.configs.winbar").filename()
-		end
-
-		vim.opt_local.winbar = value
-	end,
-})
-
 cmd("FileType", {
 	callback = function()
 		vim.opt.formatoptions = vim.opt.formatoptions
