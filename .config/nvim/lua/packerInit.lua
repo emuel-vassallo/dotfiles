@@ -489,6 +489,7 @@ return packer.startup(function(use)
 
 	use({
 		"fgheng/winbar.nvim",
+		event = "BufEnter",
 		config = function()
 			require("winbar").setup({
 				enabled = true,
@@ -525,6 +526,18 @@ return packer.startup(function(use)
 					"qf",
 					"tutor",
 				},
+			})
+		end,
+	})
+
+	use({
+		"hrsh7th/nvim-pasta",
+		config = function()
+			require("pasta").setup({
+				converters = {},
+				paste_mode = true,
+				next_key = vim.api.nvim_replace_termcodes("<C-p>", true, true, true),
+				prev_key = vim.api.nvim_replace_termcodes("<C-n>", true, true, true),
 			})
 		end,
 	})

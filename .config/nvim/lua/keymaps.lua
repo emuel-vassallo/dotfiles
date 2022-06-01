@@ -209,4 +209,9 @@ keymap("v", "<F2>", '<cmd>lua require("renamer").rename()<cr>', opts)
 -- keymap("v", "<C-S-c>", '"+y', opts)
 keymap("v", "<leader>c", '"+y', opts)
 
+-- Map jk to esc in o mode
 keymap("o", "jk", "<esc>", opts)
+
+-- nvim-pasta
+keymap("n", "p", '<cmd>lua require("pasta.mappings").p()<cr>', opts)
+keymap("n", "P", '<cmd>lua require("pasta.mappings").P()<cr>', opts)
