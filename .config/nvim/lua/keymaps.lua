@@ -35,8 +35,8 @@ keymap("n", "<C-S-h>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-S-l>", ":vertical resize +2<CR>", opts)
 
 -- Buffers
-keymap("n", "<S-l>", ":BufferLineCycleNext<CR>", opts)
-keymap("n", "<S-h>", ":BufferLineCyclePrev<CR>", opts)
+keymap("n", "L", ":BufferLineCycleNext<CR>", opts)
+keymap("n", "H", ":BufferLineCyclePrev<CR>", opts)
 keymap("n", "Q", "<cmd>Bdelete!<CR>", opts)
 keymap("n", "<leader>1", "<cmd>BufferLineGoToBuffer 1<CR>", opts)
 keymap("n", "<leader>2", "<cmd>BufferLineGoToBuffer 2<CR>", opts)
@@ -62,6 +62,9 @@ keymap("i", "JK", "<ESC>", opts)
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
+-- Substitute
+keymap("v", "<leader>su", ":s/", opts)
+
 -- Move text up and down
 keymap("v", "<A-j>", ":m .+1<CR>==", opts)
 keymap("v", "<A-k>", ":m .-2<CR>==", opts)
@@ -75,8 +78,8 @@ keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Command --
-keymap("c", "jk", "<ESC>", { silent = true })
-keymap("c", "JK", "<ESC>", { silent = true })
+keymap("c", "jk", "<ESC>", opts)
+keymap("c", "JK", "<ESC>", opts)
 
 -- Custom
 keymap("v", "//", [[y/\V<C-R>=escape(@",'/\')<CR><CR>]], opts)
@@ -89,7 +92,7 @@ keymap(
 keymap("n", "<C-t>", "<cmd>lua vim.lsp.buf.document_symbol()<cr>", opts)
 keymap("n", "<leader>sl", "<cmd>vsplit<cr>", opts)
 keymap("n", "<leader>sj", "<cmd>split<cr>", opts)
-keymap("n", "<C-z>", "<cmd>TZMinimalist<cr>", opts)
+keymap("n", "<C-z>", "<cmd>TZAtaraxis<cr>", opts)
 keymap("n", "<c-n>", ":e ~/Notes/<cr>", opts)
 
 keymap("n", "-", ":lua require'lir.float'.toggle()<cr>", opts)
@@ -159,7 +162,7 @@ keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", opts)
 keymap("n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>", opts)
 keymap("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
 keymap("n", "<C-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
-keymap("n", "<S-e>", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
+keymap("n", "E", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
 keymap("n", "[d", '<cmd>lua vim.diagnostic.goto_prev({ border = "rounded" })<CR>', opts)
 keymap("n", "gl", '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics({ border = "rounded" })<CR>', opts)
 keymap("n", "]d", '<cmd>lua vim.diagnostic.goto_next({ border = "rounded" })<CR>', opts)
@@ -215,3 +218,13 @@ keymap("o", "jk", "<esc>", opts)
 -- nvim-pasta
 keymap("n", "p", '<cmd>lua require("pasta.mappings").p()<cr>', opts)
 keymap("n", "P", '<cmd>lua require("pasta.mappings").P()<cr>', opts)
+
+-- nvim-dap
+keymap("n", "<leader>wb", "<cmd>lua require'dap'.toggle_breakpoint()<cr>", opts)
+keymap("n", "<leader>wc", "<cmd>lua require'dap'.continue()<cr>", opts)
+keymap("n", "<leader>wo", "<cmd>lua require'dap'.step_over()<cr>", opts)
+keymap("n", "<leader>wi", "<cmd>lua require'dap'.step_into()<cr>", opts)
+keymap("n", "<leader>wr", "<cmd>lua require'dap'.repl.open()<cr>", opts)
+
+-- hodwoi.nvim
+keymap("n", "<leader>ho", ":Telescope howdoi<CR>", opts)

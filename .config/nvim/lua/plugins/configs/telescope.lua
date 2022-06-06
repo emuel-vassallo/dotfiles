@@ -5,6 +5,7 @@ end
 
 local actions = require("telescope.actions")
 local trouble = require("trouble.providers.telescope")
+require("telescope").load_extension("howdoi")
 
 telescope.setup({
 	defaults = {
@@ -94,10 +95,9 @@ telescope.setup({
 		-- builtin picker
 	},
 	extensions = {
-		-- Your extension configuration goes here:
-		-- extension_name = {
-		--   extension_config_key = value,
-		-- }
-		-- please take a look at the readme of the extension you want to configure
+		howdoi = {
+			num_answers = 3,
+			explain_answer = false,
+		},
 	},
 })

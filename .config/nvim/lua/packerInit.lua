@@ -451,22 +451,6 @@ return packer.startup(function(use)
 		end,
 	})
 
-	-- use({
-	-- 	"chentoast/marks.nvim",
-	-- 	config = function()
-	-- 		require("marks").setup({
-	-- 			default_mappings = false,
-	-- 			builtin_marks = { ".", "<", ">", "^" },
-	-- 			cyclic = true,
-	-- 			force_write_shada = false,
-	-- 			refresh_interval = 250,
-	-- 			sign_priority = { lower = 10, upper = 15, builtin = 8, bookmark = 20 },
-	-- 			excluded_filetypes = {},
-	-- 			mappings = {},
-	-- 		})
-	-- 	end,
-	-- })
-
 	use({
 		"nvim-neorg/neorg",
 		config = function()
@@ -512,11 +496,9 @@ return packer.startup(function(use)
 
 				exclude_filetype = {
 					"help",
-					"startify",
-					"dashboard",
 					"packer",
 					"neogitstatus",
-					"NvimTree",
+					"neo-tree",
 					"Trouble",
 					"alpha",
 					"lir",
@@ -541,6 +523,8 @@ return packer.startup(function(use)
 			})
 		end,
 	})
+
+	use({ "zane-/howdoi.nvim" })
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
