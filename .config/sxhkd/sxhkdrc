@@ -3,7 +3,7 @@
 #
 
 super + Return
-  kitty
+  st
 
 super + c
   firefox
