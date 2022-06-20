@@ -27,7 +27,7 @@ local function getGreeting(name)
 	local tableTime = os.date("*t")
 	local hour = tableTime.hour
 	local greetingsTable = {
-		[1] = "  It's bedtime",
+		[1] = "  Sleep well",
 		[2] = "  Good morning",
 		[3] = "  Good afternoon",
 		[4] = "  Good evening",

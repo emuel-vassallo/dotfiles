@@ -9,6 +9,7 @@ if not snip_status_ok then
 	return
 end
 
+local compare = cmp.config.compare
 local types = require("cmp.types")
 local neogen = require("plugins.configs.neogen")
 
@@ -22,17 +23,6 @@ local kind = require("plugins.configs.kind")
 local function t(string)
 	return vim.api.nvim_replace_termcodes(string, true, true, true)
 end
-
--- local border = {
---   { "╔", "CmpBorder" },
---   { "═", "CmpBorder" },
---   { "╗", "CmpBorder" },
---   { "║", "CmpBorder" },
---   { "╝", "CmpBorder" },
---   { "═", "CmpBorder" },
---   { "╚", "CmpBorder" },
---   { "║", "CmpBorder" },
--- }
 
 local border = {
 	{ "╭", "CmpBorder" },
@@ -178,7 +168,7 @@ cmp.setup({
 	},
 	mapping = mapping,
 	sources = {
-		{ name = "buffer", priority = 7, keyword_length = 5 },
+		{ name = "buffer", priority = 7, keyword_length = 4 },
 		{ name = "path", priority = 5 },
 		{ name = "emoji", priority = 3 },
 		{ name = "calc", priority = 4 },
@@ -254,7 +244,8 @@ cmp.setup({
 		}),
 	},
 	sorting = {
-		comparators = cmp.config.compare.recently_userd,
+		priority_weight = 1.0,
+		comparators = { compare.locality, compare.recently_used, compare.score, compare.offset, compare.order },
 	},
 	experimental = {
 		ghost_text = true,

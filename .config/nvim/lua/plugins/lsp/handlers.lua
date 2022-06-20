@@ -18,6 +18,8 @@ M.setup = function()
 		vim.keymap.set("n", "<leader>f", function()
 			local params = util.make_formatting_params({})
 			client.request("textDocument/formatting", params, nil, bufnr)
+			client.resolved_capabilities.document_formatting = false
+			client.resolved_capabilities.document_range_formatting = false
 		end, { buffer = bufnr })
 	end
 

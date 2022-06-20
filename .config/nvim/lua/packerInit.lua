@@ -12,7 +12,7 @@ if fn.empty(fn.glob(install_path)) > 0 then
 		install_path,
 	})
 	print("Installing packer close and reopen Neovim...")
-	vim.cmd([[packadd packer.nvim]])
+	vim.md([[packadd packer.nvim]])
 end
 -- Use a protected call so we don't error out on first use
 local status_ok, packer = pcall(require, "packer")
@@ -185,7 +185,7 @@ return packer.startup(function(use)
 		end,
 	})
 
-	use({ "xiyaowong/nvim-cursorword", keys = { "h", "j", "k", "l" } })
+	use({ "RRethy/vim-illuminate" })
 
 	use({
 		"simrat39/symbols-outline.nvim",
@@ -248,17 +248,6 @@ return packer.startup(function(use)
 		ft = "html",
 		config = function()
 			require("nvim-ts-autotag").setup()
-		end,
-	})
-
-	use({
-		"kevinhwang91/nvim-hlslens",
-		config = function()
-			require("hlslens").setup({
-				calm_down = true,
-				nearest_only = true,
-				nearest_float_when = "auto",
-			})
 		end,
 	})
 
@@ -452,33 +441,13 @@ return packer.startup(function(use)
 	})
 
 	use({
-		"nvim-neorg/neorg",
-		config = function()
-			require("neorg").setup({
-				load = {
-					["core.defaults"] = {},
-					["core.norg.dirman"] = {
-						config = {
-							workspaces = {
-								work = "~/notes/work",
-								home = "~/notes/home",
-							},
-						},
-					},
-				},
-			})
-		end,
-		requires = "nvim-lua/plenary.nvim",
-	})
-
-	use({
 		"fgheng/winbar.nvim",
 		event = "BufEnter",
 		config = function()
 			require("winbar").setup({
 				enabled = true,
 
-				show_file_path = true,
+				show_file_path = false,
 				show_symbols = true,
 
 				colors = {
@@ -511,20 +480,6 @@ return packer.startup(function(use)
 			})
 		end,
 	})
-
-	use({
-		"hrsh7th/nvim-pasta",
-		config = function()
-			require("pasta").setup({
-				converters = {},
-				paste_mode = true,
-				next_key = vim.api.nvim_replace_termcodes("<C-p>", true, true, true),
-				prev_key = vim.api.nvim_replace_termcodes("<C-n>", true, true, true),
-			})
-		end,
-	})
-
-	use({ "zane-/howdoi.nvim" })
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()

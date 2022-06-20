@@ -103,7 +103,7 @@ keymap("n", "gx", [[:silent execute '!$BROWSER ' . shellescape(expand('<cfile>')
 keymap("n", "<C-n>", ":Neotree toggle reveal_force_cwd<CR>", opts)
 
 --> Telescope
-keymap("n", "<leader>ff", "<cmd>Telescope find_files<cr>", opts)
+keymap("n", "<leader>fa", "<cmd>Telescope find_files<cr>", opts)
 keymap("n", "<leader>fo", "<cmd>Telescope oldfiles<cr>", opts)
 keymap("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts)
 keymap("n", "<leader>fp", "<cmd>Telescope projects<cr>", opts)
@@ -122,13 +122,6 @@ keymap("n", "<leader>v", ":e ~/.config/nvim<CR>", opts)
 
 -- Sync Packer
 keymap("n", "<leader>sp", ":PackerSync<CR>", opts)
-
-keymap("n", "n", [[<Cmd>execute('normal! ' . v:count1 . 'n')<CR><Cmd>lua require('hlslens').start()<CR>]], opts)
-keymap("n", "N", [[<Cmd>execute('normal! ' . v:count1 . 'N')<CR><Cmd>lua require('hlslens').start()<CR>]], opts)
-keymap("n", "*", [[*<Cmd>lua require('hlslens').start()<CR>]], opts)
-keymap("n", "#", [[#<Cmd>lua require('hlslens').start()<CR>]], opts)
-keymap("n", "g*", [[g*<Cmd>lua require('hlslens').start()<CR>]], opts)
-keymap("n", "g#", [[g#<Cmd>lua require('hlslens').start()<CR>]], opts)
 
 keymap("n", "<leader>hl", ":nohlsearch<CR>", opts)
 
@@ -215,10 +208,6 @@ keymap("v", "<leader>c", '"+y', opts)
 -- Map jk to esc in o mode
 keymap("o", "jk", "<esc>", opts)
 
--- nvim-pasta
-keymap("n", "p", '<cmd>lua require("pasta.mappings").p()<cr>', opts)
-keymap("n", "P", '<cmd>lua require("pasta.mappings").P()<cr>', opts)
-
 -- nvim-dap
 keymap("n", "<leader>wb", "<cmd>lua require'dap'.toggle_breakpoint()<cr>", opts)
 keymap("n", "<leader>wc", "<cmd>lua require'dap'.continue()<cr>", opts)
@@ -226,5 +215,4 @@ keymap("n", "<leader>wo", "<cmd>lua require'dap'.step_over()<cr>", opts)
 keymap("n", "<leader>wi", "<cmd>lua require'dap'.step_into()<cr>", opts)
 keymap("n", "<leader>wr", "<cmd>lua require'dap'.repl.open()<cr>", opts)
 
--- hodwoi.nvim
-keymap("n", "<leader>ho", ":Telescope howdoi<CR>", opts)
+keymap("n", "<leader><tab>", "<c-^>", opts)
