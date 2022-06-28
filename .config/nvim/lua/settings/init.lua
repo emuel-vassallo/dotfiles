@@ -3,6 +3,7 @@ local opt = vim.opt
 
 require("settings.disable_builtin")
 opt.backup = false
+opt.backupcopy = "yes"
 opt.cmdheight = 1
 opt.completeopt = "menuone,noselect"
 opt.conceallevel = 0

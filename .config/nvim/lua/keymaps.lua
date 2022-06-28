@@ -216,3 +216,8 @@ keymap("n", "<leader>wi", "<cmd>lua require'dap'.step_into()<cr>", opts)
 keymap("n", "<leader>wr", "<cmd>lua require'dap'.repl.open()<cr>", opts)
 
 keymap("n", "<leader><tab>", "<c-^>", opts)
+
+-- color-picker
+
+keymap("n", "<C-c>", "<cmd>PickColor<cr>", opts)
+keymap("i", "<C-c>", "<cmd>PickColorInsert<cr>", opts)
