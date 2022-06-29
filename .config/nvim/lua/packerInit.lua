@@ -485,7 +485,6 @@ return packer.startup(function(use)
 		"ziontee113/color-picker.nvim",
 		event = "BufEnter",
 		config = function()
-			-- only need setup() if you want to change progress bar icons
 			require("color-picker").setup({
 				["icons"] = { "ﱢ", "" },
 			})

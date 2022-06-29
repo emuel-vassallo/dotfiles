@@ -218,6 +218,8 @@ keymap("n", "<leader>wr", "<cmd>lua require'dap'.repl.open()<cr>", opts)
 keymap("n", "<leader><tab>", "<c-^>", opts)
 
 -- color-picker
-
 keymap("n", "<C-c>", "<cmd>PickColor<cr>", opts)
 keymap("i", "<C-c>", "<cmd>PickColorInsert<cr>", opts)
+
+--toggleterm
+keymap("n", "<leader><C-\\>", "<cmd>ToggleTerm 2<cr>", opts)
