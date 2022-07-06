@@ -482,12 +482,10 @@ return packer.startup(function(use)
 	})
 
 	use({
-		"ziontee113/color-picker.nvim",
-		event = "BufEnter",
+		"max397574/colortils.nvim",
+		cmd = "Colortils",
 		config = function()
-			require("color-picker").setup({
-				["icons"] = { "ﱢ", "" },
-			})
+			require("colortils").setup()
 		end,
 	})
 

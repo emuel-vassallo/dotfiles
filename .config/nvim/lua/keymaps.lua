@@ -37,7 +37,7 @@ keymap("n", "<C-S-l>", ":vertical resize +2<CR>", opts)
 -- Buffers
 keymap("n", "L", ":BufferLineCycleNext<CR>", opts)
 keymap("n", "H", ":BufferLineCyclePrev<CR>", opts)
-keymap("n", "Q", "<cmd>Bdelete!<CR>", opts)
+keymap("n", "<C-w>", "<cmd>Bdelete!<CR>", opts)
 keymap("n", "<leader>1", "<cmd>BufferLineGoToBuffer 1<CR>", opts)
 keymap("n", "<leader>2", "<cmd>BufferLineGoToBuffer 2<CR>", opts)
 keymap("n", "<leader>3", "<cmd>BufferLineGoToBuffer 3<CR>", opts)
@@ -84,10 +84,10 @@ keymap("c", "JK", "<ESC>", opts)
 -- Custom
 keymap("v", "//", [[y/\V<C-R>=escape(@",'/\')<CR><CR>]], opts)
 keymap(
-	"n",
-	"<C-p>",
-	"<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
-	opts
+  "n",
+  "<C-p>",
+  "<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
+  opts
 )
 keymap("n", "<C-t>", "<cmd>lua vim.lsp.buf.document_symbol()<cr>", opts)
 keymap("n", "<leader>sl", "<cmd>vsplit<cr>", opts)
