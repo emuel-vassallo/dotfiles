@@ -49,9 +49,9 @@ return packer.startup(function(use)
 		"nvim-lualine/lualine.nvim",
 		after = "nvim-web-devicons",
 		event = "BufRead",
-		config = function()
-			require("plugins.configs.lualine")
-		end,
+		-- config = function()
+		-- 	require("plugins.configs.lualine")
+		-- end,
 	})
 
 	use({
@@ -110,11 +110,11 @@ return packer.startup(function(use)
 
 	use({
 		"akinsho/toggleterm.nvim",
-		keys = { "<C-\\>" },
+    tag = 'v2.*',
 		config = function()
 			require("toggleterm").setup({
 				size = 70,
-				open_mapping = [[<c-\>]],
+				open_mapping = [[<C-\>]],
 				hide_numbers = true,
 				shade_filetypes = {},
 				shade_terminals = true,
@@ -131,13 +131,12 @@ return packer.startup(function(use)
 
 	use({ "antoinemadec/FixCursorHold.nvim", event = "BufEnter" })
 
-	use({
-		"Pocco81/AutoSave.nvim",
-		event = "BufEnter",
-		config = function()
-			require("plugins.configs.autosave")
-		end,
-	})
+	-- use({
+	-- 	"Pocco81/auto-save.nvim",
+	-- 	config = function()
+	-- 		require("plugins.configs.autosave")
+	-- 	end,
+	-- })
 
 	use({
 		"rcarriga/nvim-notify",
@@ -256,7 +255,7 @@ return packer.startup(function(use)
 		config = function()
 			require("focus").setup({
 				excluded_filetypes = {
-					"toggleterm",
+					"uoggleterm",
 					"Trouble",
 					"neo-tree",
 					"Outline",
@@ -482,10 +481,20 @@ return packer.startup(function(use)
 	})
 
 	use({
-		"max397574/colortils.nvim",
-		cmd = "Colortils",
+		"ziontee113/color-picker.nvim",
+		event = "BufEnter",
 		config = function()
-			require("colortils").setup()
+			local opts = { noremap = true, silent = true }
+
+			vim.keymap.set("n", "<C-c>", "<cmd>PickColor<cr>", opts)
+			vim.keymap.set("i", "<C-c>", "<cmd>PickColorInsert<cr>", opts)
+
+			-- only need setup() if you want to change progress bar icons
+			require("color-picker").setup({
+				["icons"] = { "ﱢ", "" },
+			})
+
+			vim.cmd([[hi FloatBorder guibg=NONE]]) -- if you don't want wierd border background colors around the popup.
 		end,
 	})
 

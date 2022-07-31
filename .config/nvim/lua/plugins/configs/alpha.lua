@@ -83,10 +83,8 @@ local pluginCount = {
 	},
 }
 
-local quote = [[
-    "First, solve the problem.
-    Then, write the code."
-]]
+local quote = "First, solve the problem. Then, write the code."
+
 local quoteAuthor = "John Johnson"
 local fullQuote = quote .. "\n \n                  - " .. quoteAuthor
 

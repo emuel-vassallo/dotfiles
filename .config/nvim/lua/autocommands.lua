@@ -102,3 +102,7 @@ cmd("FileType", {
 	end,
 	desc = "Set formatoptions",
 })
+
+cmd({ "InsertLeave", 'TextChanged' }, {
+  command = "silent! w",
+})

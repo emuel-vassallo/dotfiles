@@ -37,7 +37,7 @@ keymap("n", "<C-S-l>", ":vertical resize +2<CR>", opts)
 -- Buffers
 keymap("n", "L", ":BufferLineCycleNext<CR>", opts)
 keymap("n", "H", ":BufferLineCyclePrev<CR>", opts)
-keymap("n", "<C-w>", "<cmd>Bdelete!<CR>", opts)
+keymap("n", "Q", "<cmd>Bdelete!<CR>", opts)
 keymap("n", "<leader>1", "<cmd>BufferLineGoToBuffer 1<CR>", opts)
 keymap("n", "<leader>2", "<cmd>BufferLineGoToBuffer 2<CR>", opts)
 keymap("n", "<leader>3", "<cmd>BufferLineGoToBuffer 3<CR>", opts)
@@ -82,7 +82,6 @@ keymap("c", "jk", "<ESC>", opts)
 keymap("c", "JK", "<ESC>", opts)
 
 -- Custom
-keymap("v", "//", [[y/\V<C-R>=escape(@",'/\')<CR><CR>]], opts)
 keymap(
   "n",
   "<C-p>",
@@ -222,4 +221,4 @@ keymap("n", "<C-c>", "<cmd>PickColor<cr>", opts)
 keymap("i", "<C-c>", "<cmd>PickColorInsert<cr>", opts)
 
 --toggleterm
-keymap("n", "<leader><C-\\>", "<cmd>ToggleTerm 2<cr>", opts)
+keymap("n", "<leader><C-\\>", "<cmd>ToggleTerm 2<CR>", opts)
