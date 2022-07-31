@@ -131,13 +131,6 @@ return packer.startup(function(use)
 
 	use({ "antoinemadec/FixCursorHold.nvim", event = "BufEnter" })
 
-	-- use({
-	-- 	"Pocco81/auto-save.nvim",
-	-- 	config = function()
-	-- 		require("plugins.configs.autosave")
-	-- 	end,
-	-- })
-
 	use({
 		"rcarriga/nvim-notify",
 		config = function()
@@ -255,7 +248,7 @@ return packer.startup(function(use)
 		config = function()
 			require("focus").setup({
 				excluded_filetypes = {
-					"uoggleterm",
+					"toggleterm",
 					"Trouble",
 					"neo-tree",
 					"Outline",
