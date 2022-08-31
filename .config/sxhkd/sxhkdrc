@@ -3,13 +3,13 @@
 #
 
 super + Return
-  st
+  kitty
 
 super + c
   firefox
 
 super + t
-  flatpak run com.microsoft.Teams
+  teams
 
 super + i
   flatpak run com.spotify.Client

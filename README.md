@@ -35,7 +35,7 @@
 
 ### Packages
 
-- **Programs:** kitty rofi ranger polybar gotop sh picom neovim peek lxappearance chromium flameshot libreoffice flatpak tlp redshift
+- **Programs:** kitty rofi ranger polybar gotop sh picom neovim peek lxappearance chromium flameshot libreoffice flatpak tlp redshift feh zsh fd brightnessctl
 - **Flatpak Applications:** spotify ms-teams obs-studio
 - **Emoji Fonts:** noto-fonts noto-fonts-emoji noto-fonts-extra noto-fonts-cjk
 

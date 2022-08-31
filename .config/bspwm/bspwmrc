@@ -49,4 +49,3 @@ bspc config presel_feedback_color "$darkGrey"
 br -a "MEGAsync" state=floating border=off
 br -a Thunar:thunar state=floating
 br -a Galculator state=floating center=true
-br -a "peek" state=floating center=true
