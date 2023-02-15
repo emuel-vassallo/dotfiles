@@ -1,30 +1,30 @@
 local colors = {
-	bg = "#262626",
-	darker_grey = "#2f2f2f",
-	dark_grey = "#6a6a6a",
-	bg_light = "#404040",
-	red = "#b66467",
-	green = "#8c977d",
-	orange = "#d9bc8c",
-	blue = "#8da3b9",
-	magenta = "#a988b0",
-	cyan = "#8ca3af",
-	white = "#e8e3e3",
+  bg = "#262626",
+  darker_grey = "#2f2f2f",
+  dark_grey = "#6a6a6a",
+  bg_light = "#404040",
+  red = "#b66467",
+  green = "#8c977d",
+  orange = "#d9bc8c",
+  blue = "#8da3b9",
+  magenta = "#a988b0",
+  cyan = "#8ca3af",
+  white = "#e8e3e3",
 }
-
+--
 local theme = {
-	normal = {
-		a = { fg = colors.bg, bg = colors.green },
-		b = { fg = colors.white, bg = colors.bg_light },
-		c = { fg = colors.white, bg = colors.bg },
+  normal = {
+    a = { fg = colors.bg, bg = colors.green },
+    b = { fg = colors.white, bg = colors.bg_light },
+    c = { fg = colors.white, bg = colors.bg },
 
-		x = { fg = colors.dark_grey, bg = colors.bg },
-		z = { fg = colors.bg, bg = colors.green },
-	},
-	insert = { a = { fg = colors.bg, bg = colors.magenta }, b = { fg = colors.magenta, bg = colors.bg } },
-	visual = { a = { fg = colors.bg, bg = colors.cyan }, b = { fg = colors.cyan, bg = colors.bg } },
-	replace = { a = { fg = colors.bg, bg = colors.orange }, b = { fg = colors.orange, bg = colors.bg } },
-	command = { a = { fg = colors.bg, bg = colors.magenta }, b = { fg = colors.magenta, bg = colors.bg } },
+    x = { fg = colors.dark_grey, bg = colors.bg },
+    z = { fg = colors.bg, bg = colors.green },
+  },
+  insert = { a = { fg = colors.bg, bg = colors.magenta }, b = { fg = colors.magenta, bg = colors.bg } },
+  visual = { a = { fg = colors.bg, bg = colors.cyan }, b = { fg = colors.cyan, bg = colors.bg } },
+  replace = { a = { fg = colors.bg, bg = colors.orange }, b = { fg = colors.orange, bg = colors.bg } },
+  command = { a = { fg = colors.bg, bg = colors.magenta }, b = { fg = colors.magenta, bg = colors.bg } },
 }
 
 local conditions = {
@@ -128,15 +128,22 @@ local location = {
 	icon = "",
 }
 
-lualine.setup({
-	options = {
-		icons_enabled = true,
-		theme = theme,
-		component_separators = { left = "", right = "" },
-		section_separators = { left = "", right = "" },
-		disabled_filetypes = { "alpha", "packer", "Trouble", "neo-tree", "Outline", "toggleterm" },
-		always_divide_middle = true,
-	},
+require('lualine').setup {
+  options = {
+    icons_enabled = true,
+    theme = theme,
+    component_separators = { left = "", right = "" },
+    section_separators = { left = "", right = "" },
+    disabled_filetypes = { "alpha", "packer", "Trouble", "neo-tree", "Outline", "toggleterm", statusline = {},
+      winbar = {} },
+    ignore_focus = {},
+    always_divide_middle = true,
+    globalstatus = true,
+    refresh = {
+      statusline = 1000,
+      tabline = 1000,
+      winbar = 1000,
+    },
 	sections = {
 		lualine_a = { mainIcon, mode },
 		lualine_b = { filetype, filename },
@@ -145,7 +152,26 @@ lualine.setup({
 		lualine_x = { diff },
 		lualine_y = { branch },
 		lualine_z = { location },
-	},
-	tabline = {},
-	extensions = {},
-})
+	}
+  },
+  sections = {
+    lualine_a = { 'mode' },
+    lualine_b = { 'branch', 'diff', 'diagnostics' },
+    lualine_c = { 'filename' },
+    lualine_x = { 'encoding', 'fileformat', 'filetype' },
+    lualine_y = { 'progress' },
+    lualine_z = { 'location' }
+  },
+  inactive_sections = {
+    lualine_a = {},
+    lualine_b = {},
+    lualine_c = { 'filename' },
+    lualine_x = { 'location' },
+    lualine_y = {},
+    lualine_z = {}
+  },
+  tabline = {},
+  winbar = {},
+  inactive_winbar = {},
+  extensions = {}
+}

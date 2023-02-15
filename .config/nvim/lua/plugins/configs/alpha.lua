@@ -128,14 +128,13 @@ end
 local buttons = {
   type = "group",
   val = {
-    button("s", "   Restore", ":SessionManager load_last_session<CR>"),
-    button("r", "   Recents", ":Telescope oldfiles<CR>"),
-    button("p", "   Projects", ":Telescope projects<CR>"),
-    button("f", "   Search", ":Telescope find_files<CR>"),
-    button("e", "   Create", ":ene <BAR> startinsert<CR>"),
-    button("u", "   Update", ":PackerSync<CR>"),
-    button("c", "   Config", ":e ~/.config/nvim/<CR>"),
-    button("q", "   Quit", ":qa!<CR>"),
+    button("s", "   Restore               ", ":SessionManager load_last_session<CR>"),
+    button("r", "   Recents               ", ":Telescope oldfiles<CR>"),
+    button("f", "   Search                ", ":Telescope find_files<CR>"),
+    button("e", "   Create                ", ":ene <BAR> startinsert<CR>"),
+    button("u", "   Update                ", ":PackerSync<CR>"),
+    button("c", "   Config                ", ":e ~/.config/nvim/<CR>"),
+    button("q", "   Quit                  ", ":qa!<CR>"),
   },
   opts = {
     position = "center",
@@ -167,4 +166,5 @@ local opts = {
     margin = 44,
   },
 }
+
 alpha.setup(opts)

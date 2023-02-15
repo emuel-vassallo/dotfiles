@@ -5,12 +5,12 @@
 # ------------------
 
 pgrep -x sxhkd > /dev/null || sxhkd &
-killall flameshot &
+feh --bg-scale /home/emuel/images/wallpapers/3.jpg &
 $HOME/.config/polybar/launch.sh &
-redshift -x -P -O 9100k
-# redshift -x -P -O 2600k &
-feh --bg-scale /home/emuel/images/wallpapers/solid.jpeg &
+killall -9 -qw picom 2>/dev/null; picom --config ~/.config/picom/picom.conf &>>~/.config/picom/.picom.err &
 megasync &
+killall flameshot &
+redshift -x -P; pgrep redshift | xargs -n1 kill -9; redshift -c ~/.config/redshift/redshift.conf &
 
 # ------------------
 # Variables
@@ -25,17 +25,17 @@ alias bn='bspc node'
 # ------------------
 
 bc border_width         3
-bc window_gap           8
+bc window_gap           18
 bc split_ratio          0.50
-bc borderless_monocle   false
+bc borderless_monocle   true
 bc gapless_monocle      false
 bc single_monocle       true
 bc focus_follows_pointer true
-bspc monitor -d 1 2 3 4 5
+bspc monitor -d I II III IV 
 
 
 lightGrey="#404040"
-darkGrey="#282828"
+darkGrey="#161616"
 
 bspc config focused_border_color  "$lightGrey"
 bspc config active_border_color   "$lightGrey"

@@ -12,7 +12,7 @@ super + t
   teams
 
 super + i
-  flatpak run com.spotify.Client
+  spotify
 
 super + shift + c
   chromium
@@ -22,6 +22,13 @@ Print
 
 super + d
  rofi -show drun
+
+#
+# lockscreen
+#
+
+super + shift + x
+    betterlockscreen -l dim
 
 #
 # media keys

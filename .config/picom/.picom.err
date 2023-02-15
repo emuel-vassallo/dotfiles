@@ -1,0 +1,284 @@
+[ il-Ħadd, 30 ta Ott, 2022 17:08:05.236 parse_config_libconfig FATAL ERROR ] Error when reading configuration file "/home/emuel/.config/picom/picom.conf", line 146: syntax error
+[ il-Ħadd, 30 ta Ott, 2022 17:08:05.236 main FATAL ERROR ] Failed to create new session.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 2877 requests (2866 known processed) with 0 events remaining.
+[ il-Ħadd, 30 ta Ott, 2022 17:15:57.287 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 30 ta Ott, 2022 17:15:57.287 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 30 ta Ott, 2022 17:15:57.341 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 30 ta Ott, 2022 17:15:59.927 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 30 ta Ott, 2022 17:15:59.927 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 30 ta Ott, 2022 17:15:59.961 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 30 ta Ott, 2022 17:16:01.204 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 30 ta Ott, 2022 17:16:01.204 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 30 ta Ott, 2022 17:16:01.240 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 30 ta Ott, 2022 17:16:02.004 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 30 ta Ott, 2022 17:16:02.004 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 30 ta Ott, 2022 17:16:02.036 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 30 ta Ott, 2022 17:16:05.333 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 30 ta Ott, 2022 17:16:05.333 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 30 ta Ott, 2022 17:16:05.367 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 30 ta Ott, 2022 17:16:05.500 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 30 ta Ott, 2022 17:16:05.500 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 30 ta Ott, 2022 17:16:05.534 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 30 ta Ott, 2022 17:16:05.668 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 30 ta Ott, 2022 17:16:05.668 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 30 ta Ott, 2022 17:16:05.702 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 30 ta Ott, 2022 18:14:54.001 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00600430.
+[ il-Ħadd, 30 ta Ott, 2022 18:14:54.026 paint_one ERROR ] Failed to bind texture for window 0x0100076e.
+[ il-Ħadd, 30 ta Ott, 2022 18:14:54.026 paint_one ERROR ] Window 0x0100076e is missing painting data.
+[ il-Ħadd, 30 ta Ott, 2022 21:34:46.203 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x006005dc.
+[ il-Ħadd, 30 ta Ott, 2022 21:34:46.206 paint_one ERROR ] Failed to bind texture for window 0x01000849.
+[ il-Ħadd, 30 ta Ott, 2022 21:34:46.206 paint_one ERROR ] Window 0x01000849 is missing painting data.
+[ il-Ħadd, 30 ta Ott, 2022 22:40:31.527 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x006006dc.
+[ il-Ħadd, 30 ta Ott, 2022 22:40:31.551 paint_one ERROR ] Failed to bind texture for window 0x0100076e.
+[ il-Ħadd, 30 ta Ott, 2022 22:40:31.551 paint_one ERROR ] Window 0x0100076e is missing painting data.
+[ it-Tnejn, 31 ta Ott, 2022 11:14:28.905 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ it-Tnejn, 31 ta Ott, 2022 11:14:28.939 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ it-Tnejn, 31 ta Ott, 2022 11:15:57.246 x_fetch_region ERROR ] Failed to fetch rectangles (No error)
+X connection to :0 broken (explicit kill or server shutdown).
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 4258 requests (4244 known processed) with 0 events remaining.
+[ il-Ħadd, 12 ta Fra, 2023 15:25:58.712 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 12 ta Fra, 2023 15:25:58.712 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 12 ta Fra, 2023 15:25:58.753 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:25:59.344 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 12 ta Fra, 2023 15:25:59.344 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 12 ta Fra, 2023 15:25:59.377 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:00.993 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 12 ta Fra, 2023 15:26:00.994 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 12 ta Fra, 2023 15:26:01.040 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:02.383 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 12 ta Fra, 2023 15:26:02.383 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 12 ta Fra, 2023 15:26:02.416 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:10.357 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 12 ta Fra, 2023 15:26:10.357 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 12 ta Fra, 2023 15:26:10.413 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:34.583 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:37.476 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:39.367 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:42.317 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:42.572 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:45.441 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:49.559 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.043 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.216 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.279 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.373 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.442 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.509 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.577 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.652 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.717 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.782 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.856 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:53.927 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:56.725 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:59.593 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:26:59.890 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:27:09.298 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:27:12.030 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:27:17.579 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:27:20.601 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:27:41.656 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:34:06.327 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:34:13.276 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:34:34.317 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:34:43.022 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:34:52.404 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:37:43.383 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:37:47.386 parse_config_libconfig FATAL ERROR ] Error when reading configuration file "/home/emuel/.config/picom/picom.conf", line 2: syntax error
+[ il-Ħadd, 12 ta Fra, 2023 15:37:47.386 main FATAL ERROR ] Failed to create new session.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.470 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.471 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.471 get_cfg WARN ] Dual-kawase blur is not implemented by the legacy backends, you must use the `experimental-backends` option.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.525 glx_has_extension INFO ] Found GLX extension GLX_SGI_video_sync.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.525 glx_has_extension INFO ] Missing GLX extension GLX_SGI_swap_control.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.525 glx_has_extension INFO ] Found GLX extension GLX_OML_sync_control.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.526 glx_has_extension INFO ] Found GLX extension GLX_MESA_swap_control.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.526 glx_has_extension INFO ] Found GLX extension GLX_EXT_swap_control.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.526 glx_has_extension INFO ] Found GLX extension GLX_EXT_texture_from_pixmap.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.526 glx_has_extension INFO ] Found GLX extension GLX_ARB_create_context.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.526 glx_has_extension INFO ] Found GLX extension GLX_EXT_buffer_age.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.526 glx_has_extension INFO ] Found GLX extension GLX_MESA_query_renderer.
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.542 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:37:57.548 gl_has_extension INFO ] Missing GL extension GL_GREMEDY_string_marker.
+[ il-Ħadd, 12 ta Fra, 2023 15:38:12.274 reset_enable INFO ] picom is resetting...
+[ il-Ħadd, 12 ta Fra, 2023 15:38:12.294 parse_config_libconfig FATAL ERROR ] Error when reading configuration file "/home/emuel/.config/picom/picom.conf", line 2: syntax error
+[ il-Ħadd, 12 ta Fra, 2023 15:38:12.294 main FATAL ERROR ] Failed to create new session.
+[ il-Ħadd, 12 ta Fra, 2023 15:38:19.363 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:38:36.473 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:38:38.937 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:38:41.600 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:38:50.255 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:38:51.665 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:38:53.178 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:38:55.907 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:38:57.629 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:00.723 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:15.856 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:18.537 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:20.778 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:23.470 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:25.668 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:28.931 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:34.165 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:37.540 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:39.681 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:39:42.579 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:40:12.388 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:40:12.735 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:40:15.716 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:40:31.720 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:40:40.447 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:40:50.725 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:40:55.441 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:41:01.189 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:41:03.924 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:41:13.654 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:43:58.728 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:44:01.544 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:44:06.016 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:44:13.357 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:44:19.204 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:44:24.266 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 15:44:27.267 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:41:22.498 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:41:48.820 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:41:51.894 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:41:52.942 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:41:55.896 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:41:59.047 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:42:00.901 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:42:04.056 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:42:06.240 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:42:10.651 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:42:10.797 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:42:11.169 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:42:11.666 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:42:13.799 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:42:16.662 init_render WARN ] Old backends only support blur method "kernel". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:43:54.318 init_render WARN ] Old backends only support blur methods "kernel|kawase". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 16:44:25.816 init_render WARN ] Old backends only support blur methods "kernel|kawase". Your blur setting will not be applied
+[ il-Ħadd, 12 ta Fra, 2023 17:05:22.946 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a002b3.
+[ il-Ħadd, 12 ta Fra, 2023 17:05:22.976 paint_one ERROR ] Failed to bind texture for window 0x01800091.
+[ il-Ħadd, 12 ta Fra, 2023 17:05:22.976 paint_one ERROR ] Window 0x01800091 is missing painting data.
+X connection to :0 broken (explicit kill or server shutdown).
+[ it-Tnejn, 13 ta Fra, 2023 12:29:25.583 parse_config_libconfig FATAL ERROR ] Error when reading configuration file "/home/emuel/.config/picom/picom.conf", line 214: syntax error
+[ it-Tnejn, 13 ta Fra, 2023 12:29:25.583 main FATAL ERROR ] Failed to create new session.
+[ it-Tnejn, 13 ta Fra, 2023 12:29:52.935 parse_config_libconfig FATAL ERROR ] Error when reading configuration file "/home/emuel/.config/picom/picom.conf", line 214: syntax error
+[ it-Tnejn, 13 ta Fra, 2023 12:29:52.935 main FATAL ERROR ] Failed to create new session.
+[ it-Tnejn, 13 ta Fra, 2023 12:29:53.681 parse_config_libconfig FATAL ERROR ] Error when reading configuration file "/home/emuel/.config/picom/picom.conf", line 214: syntax error
+[ it-Tnejn, 13 ta Fra, 2023 12:29:53.681 main FATAL ERROR ] Failed to create new session.
+[ it-Tnejn, 13 ta Fra, 2023 12:29:59.498 parse_config_libconfig FATAL ERROR ] Error when reading configuration file "/home/emuel/.config/picom/picom.conf", line 214: syntax error
+[ it-Tnejn, 13 ta Fra, 2023 12:29:59.498 main FATAL ERROR ] Failed to create new session.
+picom doesn't accept positional arguments.
+[ it-Tnejn, 13 ta Fra, 2023 12:48:34.735 parse_config_libconfig FATAL ERROR ] Error when reading configuration file "/home/emuel/.config/picom/picom.conf", line 213: syntax error
+[ it-Tnejn, 13 ta Fra, 2023 12:48:34.735 main FATAL ERROR ] Failed to create new session.
+[ it-Tnejn, 13 ta Fra, 2023 13:06:14.524 x_fetch_region ERROR ] Failed to fetch rectangles (No error)
+X connection to :0 broken (explicit kill or server shutdown).
+[ it-Tnejn, 13 ta Fra, 2023 14:37:38.375 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a00293.
+[ it-Tnejn, 13 ta Fra, 2023 14:37:38.376 paint_one ERROR ] Failed to bind texture for window 0x01600022.
+[ it-Tnejn, 13 ta Fra, 2023 14:37:38.376 paint_one ERROR ] Window 0x01600022 is missing painting data.
+picom doesn't accept positional arguments.
+picom doesn't accept positional arguments.
+picom doesn't accept positional arguments.
+XIO:  fatal IO error 62 (Timer expired) on X server ":0"
+      after 20330 requests (20330 known processed) with 0 events remaining.
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+[ it-Tlieta, 14 ta Fra, 2023 21:40:06.276 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00600627.
+[ it-Tlieta, 14 ta Fra, 2023 21:40:06.276 paint_one ERROR ] Failed to bind texture for window 0x01000080.
+[ it-Tlieta, 14 ta Fra, 2023 21:40:06.276 paint_one ERROR ] Window 0x01000080 is missing painting data.
+X Error of failed request:  GLXBadPixmap
+  Major opcode of failed request:  152 (GLX)
+  Minor opcode of failed request:  23 (X_GLXDestroyPixmap)
+  Serial number of failed request:  2194
+  Current serial number in output stream:  2486
+XIO:  fatal IO error 104 (Connection reset by peer) on X server ":0"
+      after 2608 requests (2590 known processed) with 0 events remaining.
+[ l-Erbgħa, 15 ta Fra, 2023 16:47:58.172 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00a1daaa.
+[ l-Erbgħa, 15 ta Fra, 2023 16:47:58.172 paint_one ERROR ] Failed to bind texture for window 0x01600060.
+[ l-Erbgħa, 15 ta Fra, 2023 16:47:58.172 paint_one ERROR ] Window 0x01600060 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:21:40.284 parse_config_libconfig FATAL ERROR ] Error when reading configuration file "/home/emuel/.config/picom/picom.conf", line 410: syntax error
+[ l-Erbgħa, 15 ta Fra, 2023 18:21:40.284 main FATAL ERROR ] Failed to create new session.
+[ l-Erbgħa, 15 ta Fra, 2023 18:23:00.217 parse_config_libconfig FATAL ERROR ] Error when reading configuration file "/home/emuel/.config/picom/picom.conf", line 409: syntax error
+[ l-Erbgħa, 15 ta Fra, 2023 18:23:00.217 main FATAL ERROR ] Failed to create new session.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.429 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x0180022c.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.429 paint_one ERROR ] Failed to bind texture for window 0x00600006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.429 paint_one ERROR ] Window 0x00600006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.440 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x0180022c.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.440 paint_one ERROR ] Failed to bind texture for window 0x00600006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.440 paint_one ERROR ] Window 0x00600006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.448 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x0180022c.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.448 paint_one ERROR ] Failed to bind texture for window 0x00600006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.448 paint_one ERROR ] Window 0x00600006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.488 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x0180022c.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.488 paint_one ERROR ] Failed to bind texture for window 0x00600006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.488 paint_one ERROR ] Window 0x00600006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.494 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x0180022c.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.494 paint_one ERROR ] Failed to bind texture for window 0x00600006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.494 paint_one ERROR ] Window 0x00600006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.512 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x0180022c.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.512 paint_one ERROR ] Failed to bind texture for window 0x00600006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.512 paint_one ERROR ] Window 0x00600006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.530 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x0180022c.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.530 paint_one ERROR ] Failed to bind texture for window 0x00600006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.530 paint_one ERROR ] Window 0x00600006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.545 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x0180022c.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.545 paint_one ERROR ] Failed to bind texture for window 0x00600006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.545 paint_one ERROR ] Window 0x00600006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.562 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x0180022c.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.562 paint_one ERROR ] Failed to bind texture for window 0x00600006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:42:11.562 paint_one ERROR ] Window 0x00600006 is missing painting data.
+X connection to :0 broken (explicit kill or server shutdown).
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 1917 requests (1906 known processed) with 0 events remaining.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.029 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00800221.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.029 paint_one ERROR ] Failed to bind texture for window 0x00c00006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.029 paint_one ERROR ] Window 0x00c00006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.042 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00800221.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.042 paint_one ERROR ] Failed to bind texture for window 0x00c00006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.042 paint_one ERROR ] Window 0x00c00006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.067 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00800221.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.067 paint_one ERROR ] Failed to bind texture for window 0x00c00006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.067 paint_one ERROR ] Window 0x00c00006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.081 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00800221.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.081 paint_one ERROR ] Failed to bind texture for window 0x00c00006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.081 paint_one ERROR ] Window 0x00c00006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.098 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00800221.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.098 paint_one ERROR ] Failed to bind texture for window 0x00c00006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.098 paint_one ERROR ] Window 0x00c00006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.115 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00800221.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.115 paint_one ERROR ] Failed to bind texture for window 0x00c00006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.115 paint_one ERROR ] Window 0x00c00006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.135 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00800221.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.135 paint_one ERROR ] Failed to bind texture for window 0x00c00006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.135 paint_one ERROR ] Window 0x00c00006 is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.151 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x00800221.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.151 paint_one ERROR ] Failed to bind texture for window 0x00c00006.
+[ l-Erbgħa, 15 ta Fra, 2023 18:46:10.151 paint_one ERROR ] Window 0x00c00006 is missing painting data.
+X connection to :0 broken (explicit kill or server shutdown).
+XIO:  fatal IO error 62 (Timer expired) on X server ":0"
+      after 6725 requests (6714 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 2120 requests (2117 known processed) with 0 events remaining.
+XIO:  fatal IO error 62 (Timer expired) on X server ":0"
+      after 3596 requests (3585 known processed) with 0 events remaining.
+X connection to :0 broken (explicit kill or server shutdown).
+[ l-Erbgħa, 15 ta Fra, 2023 18:52:24.548 handle_queued_x_events FATAL ERROR ] X11 server connection broke (error 1)
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+[ l-Erbgħa, 15 ta Fra, 2023 18:59:46.984 handle_queued_x_events FATAL ERROR ] X11 server connection broke (error 1)
+X connection to :0 broken (explicit kill or server shutdown).
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 13581 requests (13581 known processed) with 0 events remaining.
+XIO:  fatal IO error 62 (Timer expired) on X server ":0"
+      after 2934 requests (2928 known processed) with 0 events remaining.
+[ l-Erbgħa, 15 ta Fra, 2023 19:19:54.631 handle_queued_x_events FATAL ERROR ] X11 server connection broke (error 1)
+[ l-Erbgħa, 15 ta Fra, 2023 22:03:15.728 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x01e32935.
+[ l-Erbgħa, 15 ta Fra, 2023 22:03:15.728 paint_one ERROR ] Failed to bind texture for window 0x01800e7a.
+[ l-Erbgħa, 15 ta Fra, 2023 22:03:15.728 paint_one ERROR ] Window 0x01800e7a is missing painting data.
+[ l-Erbgħa, 15 ta Fra, 2023 22:38:10.565 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x01e3d2b1.
+[ l-Erbgħa, 15 ta Fra, 2023 22:38:10.565 paint_one ERROR ] Failed to bind texture for window 0x01800e7a.
+[ l-Erbgħa, 15 ta Fra, 2023 22:38:10.565 paint_one ERROR ] Window 0x01800e7a is missing painting data.

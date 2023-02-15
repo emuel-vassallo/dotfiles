@@ -24,12 +24,6 @@ cmd("TermOpen", {
 
 augroup("_buffer", {})
 
-cmd("BufWritePre", {
-	desc = "Trim whitespace on save",
-	group = "_buffer",
-	command = [[call NoWhitespace()]],
-})
-
 -- Cursor position
 cmd("BufReadPost", {
 	desc = "Restore cursor position upon reopening the file",
@@ -101,8 +95,4 @@ cmd("FileType", {
 			- "2" -- don't use indent of second line for rest of paragraph
 	end,
 	desc = "Set formatoptions",
-})
-
-cmd({ "InsertLeave", 'TextChanged' }, {
-  command = "silent! w",
 })
