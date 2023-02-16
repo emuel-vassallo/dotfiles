@@ -282,3 +282,6 @@ XIO:  fatal IO error 62 (Timer expired) on X server ":0"
 [ l-Erbgħa, 15 ta Fra, 2023 22:38:10.565 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x01e3d2b1.
 [ l-Erbgħa, 15 ta Fra, 2023 22:38:10.565 paint_one ERROR ] Failed to bind texture for window 0x01800e7a.
 [ l-Erbgħa, 15 ta Fra, 2023 22:38:10.565 paint_one ERROR ] Window 0x01800e7a is missing painting data.
+[ il-Ħamis, 16 ta Fra, 2023 10:58:06.076 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x02202a63.
+[ il-Ħamis, 16 ta Fra, 2023 10:58:06.082 paint_one ERROR ] Failed to bind texture for window 0x024000a3.
+[ il-Ħamis, 16 ta Fra, 2023 10:58:06.082 paint_one ERROR ] Window 0x024000a3 is missing painting data.
