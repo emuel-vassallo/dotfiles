@@ -37,7 +37,7 @@ keymap("n", "<C-S-l>", ":vertical resize +2<CR>", opts)
 -- Buffers
 keymap("n", "L", ":BufferLineCycleNext<CR>", opts)
 keymap("n", "H", ":BufferLineCyclePrev<CR>", opts)
-keymap("n", "Q", "<cmd>Bdelete!<CR>", opts)
+keymap("n", "Q", "<cmd>BDelete this<CR>", opts)
 keymap("n", "<leader>1", "<cmd>BufferLineGoToBuffer 1<CR>", opts)
 keymap("n", "<leader>2", "<cmd>BufferLineGoToBuffer 2<CR>", opts)
 keymap("n", "<leader>3", "<cmd>BufferLineGoToBuffer 3<CR>", opts)
@@ -119,8 +119,8 @@ keymap("n", "<leader>rn", ":so %<CR>", opts)
 -- Edit config
 keymap("n", "<leader>v", ":e ~/.config/nvim<CR>", opts)
 
--- Sync Packer
-keymap("n", "<leader>sp", ":PackerSync<CR>", opts)
+-- Sync Lazy
+keymap("n", "<leader>sp", ":Lazy sync<CR>", opts)
 
 keymap("n", "<leader>hl", ":nohlsearch<CR>", opts)
 

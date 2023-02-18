@@ -13,9 +13,6 @@ local compare = cmp.config.compare
 local types = require("cmp.types")
 local neogen = require("plugins.configs.neogen")
 
-local cmp_autopairs = require("nvim-autopairs.completion.cmp")
-cmp.event:on("confirm_done", cmp_autopairs.on_confirm_done({ map_char = { tex = "" } }))
-
 local str = require("cmp.utils.str")
 
 local kind = require("plugins.configs.kind")

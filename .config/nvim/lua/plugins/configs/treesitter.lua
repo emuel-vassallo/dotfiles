@@ -4,7 +4,6 @@ if not status_ok then
 end
 
 require("nvim-treesitter.configs").setup({
-	sync_install = true, -- install languages synchronously (only applied to `ensure_installed`)
 	ensure_installed = {
 		"python",
 		"lua",
@@ -21,22 +20,33 @@ require("nvim-treesitter.configs").setup({
 		"bash",
     "comment",
     "regex",
+    "phpdoc"
 	},
+
+	sync_install = true, -- install languages synchronously (only applied to `ensure_installed`)
+
+  auto_install = false;
+
 	ignore_install = { "" }, -- List of parsers to ignore installing
+
 	autopairs = {
 		enable = true,
 	},
+
 	autotag = {
 		enable = true,
 	},
+
 	highlight = {
 		enable = true, -- false will disable the whole extension
 		disable = { "" }, -- list of language that will be disabled
 		additional_vim_regex_highlighting = false,
 	},
+
 	matchup = {
 		enable = true,
 	},
+
 	refactor = {
 		highlight_definitions = {
 			enable = false,
@@ -59,17 +69,20 @@ require("nvim-treesitter.configs").setup({
 			},
 		},
 	},
+
 	rainbow = {
 		enable = true,
 		extended_mode = true,
 		max_files_lines = nil,
 		colors = { "#d9bc8c", "#a988b0", "#8da3b9" },
 	},
+
 	indent = { enable = true, disable = { "yaml" } },
 	context_commentstring = {
 		enable = true,
 		enable_autocmd = false,
 	},
+
 	textobjects = {
 		select = {
 			enable = true,

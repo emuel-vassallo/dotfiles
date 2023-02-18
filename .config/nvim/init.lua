@@ -1,5 +1,5 @@
-require("packerInit")
-require("autocommands")
 require("settings")
+require("lazyInit")
+require("autocommands")
 require("keymaps")
 require("colors")

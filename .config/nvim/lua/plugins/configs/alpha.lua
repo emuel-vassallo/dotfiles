@@ -60,29 +60,6 @@ local greetHeading = {
   },
 }
 
-local plugins = ""
-if vim.fn.has("linux") == 1 or vim.fn.has("mac") == 1 then
-  local handle = io.popen('fd -d 2 . $HOME"/.local/share/nvim/site/pack/packer" | grep pack | wc -l | tr -d "\n" ')
-  if handle == nil then
-    return nil
-  end
-  plugins = handle:read("*a")
-  handle:close()
-
-  plugins = plugins:gsub("^%s*(.-)%s*$", "%1")
-else
-  plugins = "N/A"
-end
-
-local pluginCount = {
-  type = "text",
-  val = "  " .. plugins .. " plugins in total",
-  opts = {
-    position = "center",
-    hl = "String",
-  },
-}
-
 local quote = "First, solve the problem. Then, write the code."
 
 local quoteAuthor = "John Johnson"
@@ -132,7 +109,7 @@ local buttons = {
     button("r", "   Recents               ", ":Telescope oldfiles<CR>"),
     button("f", "   Search                ", ":Telescope find_files<CR>"),
     button("e", "   Create                ", ":ene <BAR> startinsert<CR>"),
-    button("u", "   Update                ", ":PackerSync<CR>"),
+    button("u", "   Update                ", ":Lazy sync<CR>"),
     button("c", "   Config                ", ":e ~/.config/nvim/<CR>"),
     button("q", "   Quit                  ", ":qa!<CR>"),
   },
@@ -146,7 +123,6 @@ local section = {
   header = header,
   buttons = buttons,
   greetHeading = greetHeading,
-  pluginCount = pluginCount,
   footer = fortune,
 }
 
@@ -156,7 +132,6 @@ local opts = {
     section.header,
     { type = "padding", val = 3 },
     section.greetHeading,
-    section.pluginCount,
     { type = "padding", val = 2 },
     section.buttons,
     { type = "padding", val = 2 },
