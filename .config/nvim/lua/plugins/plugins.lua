@@ -270,9 +270,10 @@ return {
     dependencies = {
       "MunifTanjim/nui.nvim",
     },
-    config = function()
-      require("plugins.configs.neotree")
-    end,
+    -- config = function()
+    --   require("plugins.configs.neotree")
+    -- end,
+    config = true,
   },
 
   {
