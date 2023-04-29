@@ -14,6 +14,7 @@ local servers = {
 	"pyright",
 	"bashls",
 	"tsserver",
+  "phpactor",
 }
 
 lsp_installer.setup({

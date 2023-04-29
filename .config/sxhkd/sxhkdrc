@@ -3,19 +3,19 @@
 #
 
 super + Return
-  kitty
+  alacritty
 
 super + c
   firefox
 
 super + t
-  teams
+  teams-for-linux
 
 super + i
   spotify
 
 super + shift + c
-  chromium
+  chromium-browser
 
 Print
  flameshot gui
@@ -26,9 +26,6 @@ super + d
 #
 # lockscreen
 #
-
-super + shift + x
-    betterlockscreen -l dim
 
 #
 # media keys

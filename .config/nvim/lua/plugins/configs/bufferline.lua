@@ -54,7 +54,7 @@ bufferline.setup({
 
       return true
     end,
-
+    
     diagnostics = false,
     -- diagnostics_update_in_insert = true,
     -- diagnostics_indicator = function(count, level)

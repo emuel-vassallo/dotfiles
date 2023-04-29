@@ -23,9 +23,9 @@ require("nvim-treesitter.configs").setup({
     "phpdoc"
 	},
 
-	sync_install = true, -- install languages synchronously (only applied to `ensure_installed`)
+	sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)
 
-  auto_install = false;
+  auto_install = true;
 
 	ignore_install = { "" }, -- List of parsers to ignore installing
 

@@ -285,3 +285,48 @@ XIO:  fatal IO error 62 (Timer expired) on X server ":0"
 [ il-Ħamis, 16 ta Fra, 2023 10:58:06.076 glx_bind_pixmap ERROR ] Failed to query info of pixmap 0x02202a63.
 [ il-Ħamis, 16 ta Fra, 2023 10:58:06.082 paint_one ERROR ] Failed to bind texture for window 0x024000a3.
 [ il-Ħamis, 16 ta Fra, 2023 10:58:06.082 paint_one ERROR ] Window 0x024000a3 is missing painting data.
+[ 02/20/2023 16:08:41.788 session_init FATAL ERROR ] Another composite manager is already running
+[ 02/20/2023 16:08:42.052 session_init FATAL ERROR ] Another composite manager is already running
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 499 requests (456 known processed) with 0 events remaining.
+[ 02/20/2023 17:47:44.470 session_init FATAL ERROR ] Another composite manager is already running
+[ 02/20/2023 17:47:44.684 session_init FATAL ERROR ] Another composite manager is already running
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 1885 requests (1797 known processed) with 0 events remaining.
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 445399 requests (433559 known processed) with 0 events remaining.
+X connection to :0 broken (explicit kill or server shutdown).
+[ 02/27/2023 12:05:49.002 c2_parse_grp ERROR ] Pattern "window_type = 'desktop'rofi" pos 23: Unexpected expression.
+[ 02/27/2023 12:05:53.671 c2_parse_target ERROR ] Pattern "rofi" pos 4: Target type cannot be determined.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 278592 requests (278501 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 5904 requests (2509 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 29362 requests (29325 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 578684 requests (577641 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 18008 requests (17825 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 12560 requests (12437 known processed) with 0 events remaining.
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 81882 requests (75606 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 84191 requests (83847 known processed) with 0 events remaining.
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 22779 requests (22722 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 686050 requests (683845 known processed) with 0 events remaining.
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).

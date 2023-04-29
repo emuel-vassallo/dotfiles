@@ -5,12 +5,13 @@
 # ------------------
 
 pgrep -x sxhkd > /dev/null || sxhkd &
+redshift -x -P; pgrep redshift | xargs -n1 kill -9; redshift -c ~/.config/redshift/redshift.conf &
 feh --bg-scale /home/emuel/images/wallpapers/3.jpg &
 $HOME/.config/polybar/launch.sh &
 killall -9 -qw picom 2>/dev/null; picom --config ~/.config/picom/picom.conf &>>~/.config/picom/.picom.err &
 megasync &
 killall flameshot &
-redshift -x -P; pgrep redshift | xargs -n1 kill -9; redshift -c ~/.config/redshift/redshift.conf &
+xsetroot -cursor_name left_ptr &
 
 # ------------------
 # Variables
@@ -24,15 +25,14 @@ alias bn='bspc node'
 # bspwm config
 # ------------------
 
-bc border_width         3
-bc window_gap           18
+bc border_width         2
+bc window_gap           14
 bc split_ratio          0.50
 bc borderless_monocle   true
 bc gapless_monocle      false
 bc single_monocle       true
 bc focus_follows_pointer true
 bspc monitor -d I II III IV 
-
 
 lightGrey="#404040"
 darkGrey="#161616"
@@ -47,5 +47,3 @@ bspc config presel_feedback_color "$darkGrey"
 # ------------------
 
 br -a "MEGAsync" state=floating border=off
-br -a Thunar:thunar state=floating
-br -a Galculator state=floating center=true

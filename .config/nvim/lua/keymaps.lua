@@ -223,11 +223,14 @@ keymap("i", "<C-c>", "<cmd>PickColorInsert<cr>", opts)
 --toggleterm
 keymap("n", "<leader><C-\\>", "<cmd>ToggleTerm 2<CR>", opts)
 
+-- Suda
+keymap("n", "<C-S>", "<cmd>SudaWrite<CR>", opts)
+
 -- code_runner.nvim
-vim.keymap.set('n', '<leader>r', ':RunCode<CR>', { noremap = true, silent = false })
-vim.keymap.set('n', '<leader>rf', ':RunFile<CR>', { noremap = true, silent = false })
-vim.keymap.set('n', '<leader>rft', ':RunFile tab<CR>', { noremap = true, silent = false })
-vim.keymap.set('n', '<leader>rp', ':RunProject<CR>', { noremap = true, silent = false })
-vim.keymap.set('n', '<leader>rc', ':RunClose<CR>', { noremap = true, silent = false })
-vim.keymap.set('n', '<leader>crf', ':CRFiletype<CR>', { noremap = true, silent = false })
-vim.keymap.set('n', '<leader>crp', ':CRProjects<CR>', { noremap = true, silent = false })
+keymap('n', '<leader>r', ':RunCode<CR>', { noremap = true, silent = false })
+keymap('n', '<leader>rf', ':RunFile<CR>', { noremap = true, silent = false })
+keymap('n', '<leader>rft', ':RunFile tab<CR>', { noremap = true, silent = false })
+keymap('n', '<leader>rp', ':RunProject<CR>', { noremap = true, silent = false })
+keymap('n', '<leader>rc', ':RunClose<CR>', { noremap = true, silent = false })
+keymap('n', '<leader>crf', ':CRFiletype<CR>', { noremap = true, silent = false })
+keymap('n', '<leader>crp', ':CRProjects<CR>', { noremap = true, silent = false })

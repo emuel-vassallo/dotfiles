@@ -13,6 +13,7 @@ return {
   {
     "nvim-lualine/lualine.nvim",
     dependencies = { { 'kyazdani42/nvim-web-devicons' } },
+    event = "BufEnter",
     config = function()
       require("plugins.configs.lualine")
     end,
@@ -20,6 +21,7 @@ return {
 
   {
     "akinsho/bufferline.nvim",
+    event = "BufRead",
     config = function()
       require("plugins.configs.bufferline")
     end,
@@ -36,6 +38,7 @@ return {
   {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
+    event = "BufRead",
     config = function()
       require("plugins.configs.treesitter")
     end,
@@ -62,6 +65,7 @@ return {
 
   {
     "akinsho/toggleterm.nvim",
+    event = "BufRead",
     config = function()
       require("toggleterm").setup({
         size = 70,
@@ -97,7 +101,9 @@ return {
     end,
   },
 
-  { "folke/trouble.nvim" },
+  { "folke/trouble.nvim",
+    event = "BufEnter"
+  },
 
   {
     "folke/todo-comments.nvim",
@@ -160,7 +166,9 @@ return {
     keys = { "<C-a>", { "<C-x>", mode = "n" } },
   },
 
-  { "rmagatti/alternate-toggler", event = "BufRead" },
+  { "rmagatti/alternate-toggler", 
+    keys = {"ta"}, 
+  },
 
   { "danymat/neogen" },
 
@@ -201,6 +209,9 @@ return {
   {
     "michaelb/sniprun",
     build = "bash install.sh",
+    keys = {
+      "f", "<leader>f", "<leader>fh", "<leader>ff"
+    }
   },
 
   { "rafamadriz/friendly-snippets" },
@@ -224,8 +235,8 @@ return {
       require("plugins.configs.cmp")
     end,
   },
-
-  { "L3MON4D3/LuaSnip" },
+  
+  { "L3MON4D3/LuaSnip", event = "InsertEnter" },
 
   {
     "williamboman/nvim-lsp-installer",
@@ -241,10 +252,11 @@ return {
 
   {
     'altermo/ultimate-autopair.nvim',
+    event="BufEnter",
     config=function ()
         require('ultimate-autopair').setup({
-                --Config goes here
-                })
+            --Config goes here
+        })
     end,
   },
 
@@ -270,9 +282,9 @@ return {
     dependencies = {
       "MunifTanjim/nui.nvim",
     },
-    -- config = function()
-    --   require("plugins.configs.neotree")
-    -- end,
+    config = function()
+      require("plugins.configs.neotree")
+    end,
     config = true,
   },
 
@@ -297,47 +309,6 @@ return {
     end,
   },
 
-  {
-    "fgheng/winbar.nvim",
-    event = "BufEnter",
-    config = function()
-      require("winbar").setup({
-        enabled = true,
-
-        show_file_path = false,
-        show_symbols = true,
-
-        colors = {
-          path = "", -- You can customize colors like #c946fd
-          file_name = "",
-          symbols = "",
-        },
-
-        icons = {
-          file_icon_default = "",
-          seperator = ">",
-          editor_state = "●",
-          lock_icon = "",
-        },
-
-        exclude_filetype = {
-          "help",
-          "packer",
-          "neogitstatus",
-          "neo-tree",
-          "Trouble",
-          "alpha",
-          "lir",
-          "Outline",
-          "spectre_panel",
-          "toggleterm",
-          "qf",
-          "tutor",
-        },
-      })
-    end,
-  },
-
   { 
     'CRAG666/code_runner.nvim', 
     dependencies = 'nvim-lua/plenary.nvim',
@@ -355,6 +326,29 @@ return {
   },
 
   {
-    'kazhala/close-buffers.nvim'
-  }
+    "Pocco81/auto-save.nvim",
+    event = "BufEnter"
+  },
+
+  {
+    'kazhala/close-buffers.nvim',
+    event = "BufEnter"
+  },
+
+  {
+    "lambdalisue/suda.vim", 
+    event = "BufEnter"
+  },
+
+  -- {
+  --   "jackMort/ChatGPT.nvim",
+  --   config = function()
+  --     require("plugins.configs.chatGPT")
+  --   end,
+  --   dependencies = {{
+  --     "MunifTanjim/nui.nvim",
+  --     "nvim-lua/plenary.nvim",
+  --     "nvim-telescope/telescope.nvim"
+  --   }}  
+  -- },
 }
