@@ -330,3 +330,20 @@ XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
 X connection to :0 broken (explicit kill or server shutdown).
 X connection to :0 broken (explicit kill or server shutdown).
 X connection to :0 broken (explicit kill or server shutdown).
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 33744 requests (33715 known processed) with 0 events remaining.
+X connection to :0 broken (explicit kill or server shutdown).
+[ 05/09/2023 01:53:37.539 x_fetch_region ERROR ] Failed to fetch rectangles (No error)
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+X connection to :0 broken (explicit kill or server shutdown).
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 1144 requests (436 known processed) with 0 events remaining.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 664 requests (522 known processed) with 0 events remaining.
+[ 06/04/2023 18:47:50.912 session_init FATAL ERROR ] Another composite manager is already running
+[ 06/04/2023 18:48:41.900 session_init FATAL ERROR ] Another composite manager is already running
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 472 requests (369 known processed) with 0 events remaining.

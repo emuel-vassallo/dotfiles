@@ -5,6 +5,13 @@ end
 
 local lspconfig = require("lspconfig")
 
+lspconfig.phpcs = {
+  cmd = { "php", "<path-to-phpcs-fixer>", "fix", "--using-cache=no", "--rules=@PSR12", "--stdin", "--stdin-filename", "$FILENAME" },
+  filetypes = { "php" },
+  root_dir = lspconfig.util.root_pattern(".git", ".git/", "composer.json"),
+}
+
+
 local servers = {
 	"jsonls",
 	-- "lua_ls",

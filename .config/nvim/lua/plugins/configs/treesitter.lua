@@ -20,7 +20,7 @@ require("nvim-treesitter.configs").setup({
 		"bash",
     "comment",
     "regex",
-    "phpdoc"
+    "php"
 	},
 
 	sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)

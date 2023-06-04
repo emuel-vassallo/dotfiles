@@ -6,12 +6,13 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 redshift -x -P; pgrep redshift | xargs -n1 kill -9; redshift -c ~/.config/redshift/redshift.conf &
-feh --bg-scale /home/emuel/images/wallpapers/3.jpg &
+feh --bg-scale /home/emuel/images/wallpapers/MountainDark.jpg &
 $HOME/.config/polybar/launch.sh &
 killall -9 -qw picom 2>/dev/null; picom --config ~/.config/picom/picom.conf &>>~/.config/picom/.picom.err &
 megasync &
 killall flameshot &
 xsetroot -cursor_name left_ptr &
+wmname LG3D &
 
 # ------------------
 # Variables
@@ -26,13 +27,13 @@ alias bn='bspc node'
 # ------------------
 
 bc border_width         2
-bc window_gap           14
+bc window_gap           8
 bc split_ratio          0.50
 bc borderless_monocle   true
 bc gapless_monocle      false
 bc single_monocle       true
 bc focus_follows_pointer true
-bspc monitor -d I II III IV 
+bspc monitor -d 1 2 3 4 5 6 7
 
 lightGrey="#404040"
 darkGrey="#161616"
@@ -47,3 +48,4 @@ bspc config presel_feedback_color "$darkGrey"
 # ------------------
 
 br -a "MEGAsync" state=floating border=off
+br -a "Peek" state=floating border=off

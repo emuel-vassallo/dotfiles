@@ -10,6 +10,9 @@ super + c
 
 super + t
   teams-for-linux
+  
+super + v
+  codium
 
 super + i
   spotify
