@@ -6,7 +6,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 redshift -x -P; pgrep redshift | xargs -n1 kill -9; redshift -c ~/.config/redshift/redshift.conf &
-feh --bg-scale /home/emuel/images/wallpapers/MountainDark.jpg &
+feh --bg-scale /home/emuel/images/wallpapers/3.jpg &
 $HOME/.config/polybar/launch.sh &
 killall -9 -qw picom 2>/dev/null; picom --config ~/.config/picom/picom.conf &>>~/.config/picom/.picom.err &
 megasync &
@@ -27,7 +27,7 @@ alias bn='bspc node'
 # ------------------
 
 bc border_width         2
-bc window_gap           8
+bc window_gap           18
 bc split_ratio          0.50
 bc borderless_monocle   true
 bc gapless_monocle      false
